@@ -109,3 +109,15 @@ for(pos of indexArr) {
     for in loops: loops through properties of an object.
     for of loops: loops over iterable objects as an arrays and strings *strings can be accessed much in the same way as arrays
 */
+
+//! Challenge 2: Take Home Challenge
+/*  
+Create a switch statement that takes in a value (number) that represents a grade.  If it is True, console log that they are passing with the correct letter grade.
+*   A: 89-100
+*   B: 79-88
+*   C: 66-78
+*   D: 59-65
+*   F: 0-59
+*/
+
+let grade = 92;

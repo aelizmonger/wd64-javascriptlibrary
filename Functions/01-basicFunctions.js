@@ -55,3 +55,33 @@ let anon = function() {
     console.log('anon function')
 }
  anon();
+
+ //? Parameters
+ // Allow us to accept information already delcared.
+
+ function parameterFunc(num) {
+     console.log(num);
+ }
+
+ parameterFunc(2);
+ parameterFunc(9);
+
+ let returnVal = 5;
+ parameterFunc(returnVal);
+
+ let firstName = "Jane";
+ let lastName = "Doe";
+
+ function greeting(first, last) {
+     console.log(`Hi, ${first}! Welcome back!`);
+     console.log(`This is the first parameter: ${first}`);
+     console.log(`This is the last parameter: ${last}`);
+ }
+
+ //greeting(firstName);
+ //greeting(lastName);
+ //greeting(firstName, lastName);
+ greeting(firstName, null);
+ greeting(``, lastName);
+
+ 
