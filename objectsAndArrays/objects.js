@@ -64,14 +64,14 @@ let spaceJam = {
         tDevil: 'Tamanian Devil',
         bird: 'Tweety',
         cat: 'Sylvester',
-        pig: 'Porky'
+        pig: 'Porky',
     }
-}
+};
 
 //object.keys() will return an array of strings that represents the properties of that object
-console.log(Object.keys(spaceJam.toonSquad)); // String of Keys
+//console.log(Object.keys(spaceJam.toonSquad)); // String of Keys
 
-console.log(Object.keys(spaceJam.toonSquad.tDevil)); // String of the Index numbers of that string value
+//console.log(Object.keys(spaceJam.toonSquad.tDevil)); // String of the Index numbers of that string value
 
 console.log(Object.values(spaceJam.toonSquad));
 
@@ -91,9 +91,9 @@ let garden = {
     size: 10
 };
 
-let test = Object.keys(garden);
-console.log(test);
-console.log(typeof test[0]);
+//let test = Object.keys(garden);
+//console.log(test);
+//console.log(typeof test[0]);
 
 //Dot Notation:
 console.log()
@@ -126,3 +126,59 @@ let testObj = {
 
 console.log(testObj.noSpaces);
 console.log(testObj["Spaces Here"])
+
+var movie = {
+    nameOfMovie: 'Moana',
+    runTime: 113, 
+    characters: [
+       { charOne: {
+            name: 'Moana',
+            age: 16,
+            items: [(propOne: 'Heart of Te Fiti'), (propTwo: "Heihei the chicken")]
+       } }, 
+          charTwo: {
+            name: 'Maui',
+            age: 1000,
+            items: ["Manaiakalani", "Tattoos"]
+          }
+
+    ]
+   
+  };
+  
+  console.log(movie.nameOfMovie);
+  console.log(movie.runTime);
+  console.log(movie.charOne);
+  console.log(movie.charTwo);
+
+  let movie = {
+      nameOfMovie: 'Moana',
+      runTime: 113,
+      characters: [
+         {charOne: {
+             name: 'Moana',
+             age: 16,
+             items: [
+                 {itemOne: 'Hear of Te Fiti'},
+                  {itemTwo: 'Heihei the Chicken'},
+                ],
+         },
+        },
+         {charTwo: {
+             name: 'Maui',
+             age: 1000,
+             items: [
+                 {itemOne: 'Manaiakalani'}, 
+                 {itemTwo: 'tattoos'},
+                ],
+         },
+        },
+        ],
+        genre: "Animation",
+  }
+
+  console.log(movie.nameOfMovie);
+  console.log(movie.runTime);
+  console.log(movie.characters)
+  console.log(movie.characters[0].name)
+  console.log(movie.characters[0].items[0].itemOne)
