@@ -84,4 +84,9 @@ let anon = function() {
  greeting(firstName, null);
  greeting(``, lastName);
 
- 
+ let firstName = "Addy";
+ let lastName = "Monger";
+
+function greeting(firstName,lastName) {
+    console.log(`Welcome, ${firstName}, ${lastName}`);
+};

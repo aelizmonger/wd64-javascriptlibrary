@@ -127,24 +127,24 @@ let testObj = {
 console.log(testObj.noSpaces);
 console.log(testObj["Spaces Here"])
 
-var movie = {
-    nameOfMovie: 'Moana',
-    runTime: 113, 
-    characters: [
-       { charOne: {
-            name: 'Moana',
-            age: 16,
-            items: [(propOne: 'Heart of Te Fiti'), (propTwo: "Heihei the chicken")]
-       } }, 
-          charTwo: {
-            name: 'Maui',
-            age: 1000,
-            items: ["Manaiakalani", "Tattoos"]
-          }
+//var movie = {
+  //  nameOfMovie: 'Moana',
+   // runTime: 113, 
+   // characters: [
+     //  { charOne: {
+      //      name: 'Moana',
+      //      age: 16,
+            //items: [(propOne: 'Heart of Te Fiti'), (propTwo: "Heihei the chicken")]
+      // } }, 
+         // charTwo: {
+       //     name: 'Maui',
+       //     age: 1000,
+       //     items: ["Manaiakalani", "Tattoos"]
+        //  }
 
-    ]
+   // ]
    
-  };
+  //};
   
   console.log(movie.nameOfMovie);
   console.log(movie.runTime);
